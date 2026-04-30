@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- inline expmale -->
+    <button onclick="alert( 'This is inline js example')">click here inline</button>
+
+    <!-- internal example -->
+     <button onclick="showmsg()">click here to internal</button>
+     <script>
+        function showmsg(){
+            alert("this is internal example")
+        }
+     </script>
+     <!-- external js example -->
+      <button onclick="hello()">click here to external</button>
+
+      <script>
+        console.log(2+4);
+        document.write("<h1>Hello welcome pune<h1>");
+      </script>
+
+
+       <script>
+        function showmsg(){
+            alert("this is external example")
+        }
+     </script>
+     <script src="js/my_script.js" type="text/javascript"></script>
+
+
+     
+</body>
+</html>
